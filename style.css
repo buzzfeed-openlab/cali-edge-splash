@@ -43,3 +43,13 @@ p{
   font-size: 3em;
   font-weight: 600;
 }
+
+.logo {
+  max-width: 350px;
+  max-height: 120px;
+  float: left;
+}
+.logo-bf {
+  padding-top: 40px;
+  padding-right: 40px;
+}
