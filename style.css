@@ -18,11 +18,9 @@ body {
   color: #222;
 }
 .light {
-  color: #ccc
+  color: #fff;
 }
-.lighter {
-  color: #eee
-}
+
 
 
 h1 {
@@ -33,6 +31,10 @@ p{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+a, a:active, a:visited, a:hover {
+  color: #ec3c31;
+}
+
 
 .padded-section {
   padding-top: 100px;
@@ -43,13 +45,22 @@ p{
   font-size: 3em;
   font-weight: 600;
 }
+#quotes {
+  font-size: 85%;
+  font-style: italic;
+}
+.quotation-mark {
+  color: #faa026;
+  font-size: 140%;
+}
 
 .logo {
-  max-width: 350px;
-  max-height: 120px;
+  max-width: 300px;
+  max-height: 80px;
   float: left;
+  margin-right: 30px;
+  margin-bottom: 40px;
 }
 .logo-bf {
-  padding-top: 40px;
-  padding-right: 40px;
+  margin-top: 20px;
 }
